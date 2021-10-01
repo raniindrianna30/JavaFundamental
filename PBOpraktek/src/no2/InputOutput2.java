@@ -8,18 +8,17 @@ public class InputOutput2 {
      Scanner keyboard = new Scanner(System.in);
             Scanner input = new Scanner(System.in);
                 Scanner sc = new Scanner(System.in);
- 
-        System.out.println("================================");
-        
-        for(int i=0;i<3;i++) {
+          
+          for(int i=0;i<3;i++) {
             String x = keyboard.next();
             int a = keyboard.nextInt();
             String y = input.next();
             String z = sc.next();
-     
             
             int b = input.nextInt();
             int c = sc.nextInt();
+ 
+        System.out.println("================================");
             
             System.out.printf("%-15s%03d%n", x,a);
             System.out.printf("%-15s%03d%n", y,b);
